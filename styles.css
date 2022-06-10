@@ -84,13 +84,34 @@ select {
 /* My Styles 
 ============================================================= */
 
+/* My Reset */
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, 
+h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
 /* Flex */
 
 .container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: -1rem;
+  padding: 1.5rem;
 }
 
 .row {
@@ -99,6 +120,64 @@ select {
   flex-wrap: wrap;
 }
 
-.col {
-  flex: 1;
+.col,
+.col-auto {
+  flex: 0 0 100%;
+  width: 100%;
 }
+
+@media (min-width: 600px){
+  .col {
+    flex: 1;
+    padding: .5rem;
+  }
+
+  .col-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+
+/* Dry BG/Text */
+
+.nav,
+.hero,
+.footer {
+  background-color: #542659; 
+  color: white;
+}
+
+/* Navigation */
+
+.nav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav a.nav-logo,
+.nav a.nav-logo:visited {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav a.nav-logo:hover,
+.nav a.nav-logo:focus,
+.nav a.nav-logo:active{
+  color: rgba(255,255,255,0.75);
+}
+
+.nav a.nav-link,
+.nav a.nav-link:visited {
+  margin: 0 .25rem;
+  color: rgba(255,255,255,0.75);
+}
+
+.nav a.nav-link:hover,
+.nav a.nav-link:focus,
+.nav a.nav-link:active{
+  color: white;
+}
+
+
+/* Navigation */
