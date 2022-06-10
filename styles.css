@@ -235,7 +235,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.5rem 0;
+  padding: 3rem 0;
 }
 
 .hero img {
@@ -254,12 +254,13 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.5rem 0;
+  padding: 3rem 0;
 }
 
 .about-staff h2 {
   text-align: center;
   color: #542659;
+  margin-bottom: 3rem;
 }
 
 .about-staff img {
@@ -293,4 +294,30 @@ cite {
   font-weight: bold;
   font-size: 1.2rem;
   color: #494949;
+}
+
+
+/* Sign-Up */
+
+.sign-up {
+  padding: 3rem 0;
+}
+
+.sign-up .container {
+  border-radius: .75rem;
+  background-color: #6d3573;
+  color: white;
+  padding: 1.5rem 3rem;
+}
+
+.sign-up .row{
+  align-items: center;
+}
+
+.sign-up h4 {
+  margin-bottom: .5rem;
+}
+
+.sign-up p {
+  margin-bottom: 0;
 }
