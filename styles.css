@@ -102,6 +102,7 @@ h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  margin: .5rem 0 1rem 0;
 }
 
 
@@ -109,7 +110,7 @@ h4, h5, h6 {
 
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 1.5rem;
 }
@@ -180,4 +181,8 @@ h4, h5, h6 {
 }
 
 
-/* Navigation */
+/* Hero */
+
+.hero {
+  min-height: calc(50vh - 87px);
+}
