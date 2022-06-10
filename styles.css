@@ -140,6 +140,37 @@ h4, h5, h6 {
 }
 
 
+/* Buttons */
+
+.btn {
+  border-radius: 1rem;
+  text-align: center;
+  padding: .5rem .75rem;
+  border: none;
+  outline: none;
+}
+
+.btn.btn-solid {
+  background-color: #542659;
+  color: white;
+}
+
+.btn.btn-outline {
+  border: 1px solid #542659;
+  color: white;
+}
+
+.btn.btn-solid:hover,
+.btn.btn-solid:focus,
+.btn.btn-solid:active,
+.btn.btn-outline:hover,
+.btn.btn-outline:focus,
+.btn.btn-outline:active {
+  background-color: #6d3573;
+  color: white;
+}
+
+
 /* Dry BG/Text */
 
 .nav,
