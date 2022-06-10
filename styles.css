@@ -102,7 +102,16 @@ h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  margin: .5rem 0 1rem 0;
+  margin: .5rem 0 1.25rem 0;
+}
+
+p {
+  margin-bottom: 1rem;
+} 
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -143,20 +152,25 @@ h4, h5, h6 {
 /* Buttons */
 
 .btn {
+  display: block;
   border-radius: 1rem;
   text-align: center;
-  padding: .5rem .75rem;
+  padding: .5rem .75rem .25rem;
   border: none;
   outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
 .btn.btn-solid {
-  background-color: #542659;
+  background-color: #814fa5;
   color: white;
 }
 
 .btn.btn-outline {
-  border: 1px solid #542659;
+  border: 1px solid white;
   color: white;
 }
 
@@ -216,4 +230,11 @@ h4, h5, h6 {
 
 .hero {
   min-height: calc(50vh - 87px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero img {
+  border-radius: 1rem;
 }
